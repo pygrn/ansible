@@ -3,7 +3,8 @@ version: "3"
 services:
   ssh:
     image: rastasheep/ubuntu-sshd:18.04
-        - "2222:22"
-        - "8080:80"
-        - "8443:443"
+    ports:
+      - "2222:22"
+      - "8080:80"
+      - "8443:443"
 
