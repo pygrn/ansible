@@ -1,0 +1,30 @@
+site_name: Taller d'Ansible - Documentació
+repo_name: 'ytturi/pygrn_xerrada_ansible'
+repo_url: 'https://github.com/ytturi/pygrn_xerrada_ansible'
+
+copyright: 'Copyright &copy; 2018 - Jaume Flórez Valenzuela'
+
+theme:
+    name: 'material'
+    favicon: 'extra/pygrn.jpg'
+    language: 'ca'
+
+extra:
+  social:
+    - type: 'github'
+      link: 'https://github.com/ytturi'
+    - type: 'telegram'
+      link: 't.me/pygrn'
+    - type: 'twitter'
+      link: 'https://twitter.com/PythonGirona'
+    - type: 'github'
+      link: 'https://github.com/pygrn'
+
+markdown_extensions:
+    - admonition
+    - pymdownx.details
+
+pages:
+    - Inici: index.md
+    - Informació i Ajuda: README.md
+    - Procés de realització: proces.md
