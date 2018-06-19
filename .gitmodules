@@ -1,0 +1,3 @@
+[submodule "pygrn_xerrada_ansible"]
+	path = pygrn_xerrada_ansible
+	url = git@github.com:ytturi/pygrn_xerrada_ansible.git
