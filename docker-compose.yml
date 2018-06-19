@@ -3,4 +3,5 @@ version: "3"
 services:
   ssh:
     image: rastasheep/ubuntu-sshd:18.04
+        - "2222:22"
 
